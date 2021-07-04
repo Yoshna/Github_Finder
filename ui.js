@@ -3,9 +3,9 @@ class UI{
         this.profile= document.getElementById('profile');
     }
 
-    showRepo(repo){
+    showRepo(repos){
         let output = '';
-        repo.forEach(function(repo) {
+        repos.forEach((repo)=> {
             output += `
             <div class="card card-body mb-2">
             <div class="row">
